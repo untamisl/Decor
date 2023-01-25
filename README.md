@@ -43,6 +43,13 @@ or with an ImageView :
     android:src="@drawable/search_vector_drawable"
     app:decorAnimateSearch="true" />
     
+    
+        android:layout_gravity="center"
+    android:layout_width="150dp"
+    android:layout_height="24dp"
+    android:src="@drawable/search_vector_drawable"
+    app:decorAnimateSearch="true" />
+    
 This has the advantage of reusing these decorators in other Views.
 The module decorators contains some examples of useful decorators that you can start using now,
 or write your own by extending ``` AttrsDecorator<T>``` where T is the type of the View the decor will be applied on.
